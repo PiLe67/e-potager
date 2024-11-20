@@ -1,0 +1,14 @@
+{
+"targets": {
+"e-potager": {
+"hosting": {
+"e-potager": [
+"e-potager"
+]
+}
+}
+},
+"projects": {
+"default": "e-potager"
+}
+}
