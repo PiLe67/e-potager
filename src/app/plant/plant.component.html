@@ -1,0 +1,27 @@
+<div id="plant-container" class="container">
+    <h1 class="title">Your Plant Infos</h1>
+    <div id="plant-infos" class="card">
+      <div class="plant-header">
+        <h2>{{ plant_name }}</h2>
+      </div>
+      <div class="plant-environment">
+        <h3>Your Plant Environment</h3>
+        <p>Temperature: {{ temperature }}°C</p>
+        <p>Humidity Level: {{ atmospheric_humidity }}</p>
+        <p>Light's Level: {{ light }}</p>
+      </div>
+      <div class="plant-actions">
+        <button class="action-button water-button" (click)="addWater()">
+          Add a bit of water to my plant
+        </button>
+        <button class="action-button info-button">More infos on my plant here</button>
+        <button class="action-button light-button" (click)="turnOnLight()">
+          Turn on the light
+        </button>
+        <button class="action-button light-button" (click)="turnOffLight()">
+            Turn off the light
+          </button>
+      </div>
+    </div>
+  </div>
+  
